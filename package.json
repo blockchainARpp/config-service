@@ -1,0 +1,25 @@
+{
+  "name": "config-service",
+  "version": "1.0.1",
+  "author": "Commun.com",
+  "license": "MIT",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/communcom/config-service/issues"
+  },
+  "homepage": "https://github.com/communcom/config-service#readme",
+  "keywords": [
+    "node",
+    "microservice",
+    "commun"
+  ],
+  "dependencies": {
+    "cyberway-core-service": "^3.55.6",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.15"
+  }
+}
